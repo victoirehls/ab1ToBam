@@ -1,4 +1,4 @@
-# ab1ToSam #
+# ab1ToBam #
 
 ## Introduction ##
 
