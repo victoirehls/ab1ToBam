@@ -21,10 +21,10 @@ samtools <br>
 `git clone https://github.com/samtools/samtools.git ` <br>
 `sudo apt install samtools`
 
-### Input ###
+## Input ##
 Two ab1 files (reverse and forward reads) OR the name of a file that contains ab1 files to convert (reverse and forward reads)
 
-### Running ab1ToBam ###
+## Running ab1ToBam ##
 `cd placeOfScript`
 
 --> With two ab1 files (reverse + forward reads) <br>
