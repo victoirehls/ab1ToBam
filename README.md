@@ -21,6 +21,8 @@ samtools <br>
 `git clone https://github.com/samtools/samtools.git ` <br>
 `sudo apt install samtools`
 
+### Input ###
+Two ab1 files (reverse and forward reads) OR the name of a file that contains ab1 files to convert (reverse and forward reads)
 
 ### Running ab1ToBam ###
 `cd placeOfScript`
@@ -29,5 +31,12 @@ samtools <br>
 `python ab1_to_bam -p nameOfFile1.ab1 nameOfFile2.ab1`
 
 --> With the name of the folder where the ab1 files are <br>
-Naming system : nameOfRead_1.ab1, nameOfRead_2.ab1 (reverse + forward reads) <br>
+Naming system : nameOfRead1.ab1, nameOfRead2.ab1 (reverse + forward reads) <br>
 `python ab1_to_sam -f nameOfFolder`
+
+## Outputs ##
+Two fastq files : nameOfRead1.fasq, nameOfRead2.fastq <br>
+Sam file : nameOfRead1_nameOfRead2.sam <br>
+Bam file : nameOfRead1_nameOfRead2.bam <br>
+Bai file (index file) : nameOfRead1_nameOfRead2.bam.bai <br>
+
