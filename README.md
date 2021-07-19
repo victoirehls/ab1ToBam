@@ -20,3 +20,6 @@ samtools <br>
 ### Install samtools ###
 `git clone https://github.com/samtools/samtools.git ` <br>
 `sudo apt install samtools`
+
+
+### Running ab1ToBam ###
