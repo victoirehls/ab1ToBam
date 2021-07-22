@@ -21,14 +21,18 @@ samtools <br>
 `git clone https://github.com/samtools/samtools.git ` <br>
 `sudo apt install samtools`
 
+### Install ab1ToBam ###
+`git clone https://github.com/victoirehls/ab1ToBam.git`
+
 ## Input ##
-Two ab1 files (reverse and forward reads) OR the name of a file that contains ab1 files to convert (reverse and forward reads)
+Two ab1 files (reverse and forward reads) OR the name of a file that contains ab1 files to convert (reverse and forward reads). <br>
 
 ## Running ab1ToBam ##
 `cd placeOfScript`
 
 --> With two ab1 files (reverse + forward reads) <br>
-`python ab1_to_bam -p nameOfFile1.ab1 nameOfFile2.ab1`
+`python ab1_to_bam -p nameOfFile1.ab1 nameOfFile2.ab1`<br>
+nameOfFile.ab1 : whole path if the files are not in the same folder as ab1ToBam
 
 --> With the name of the folder where the ab1 files are <br>
 Naming system : nameOfRead1.ab1, nameOfRead2.ab1 (reverse + forward reads) <br>
