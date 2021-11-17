@@ -2,7 +2,7 @@
 
 ## Introduction ##
 
-ab1ToSam was designed to convert .ab1 files into .bam files.
+ab1ToBam was designed to convert .ab1 files into .bam files.
 
 ## Requirements ##
 Linux operating system <br>
